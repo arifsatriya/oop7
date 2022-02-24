@@ -1,0 +1,12 @@
+1. Buat database baru dengan nama "db_namasiswa" ( ganti dengan nama pendek masing-masing
+
+2. buat struktur tabel dengan desain sebagai berikut :
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `username` varchar(30) NOT NULL,
+  `password` varchar(30) NOT NULL,
+  `fname` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+3. Tambahkan satu buah record/data ke dalam tabel ( yang di isikan bebas )
